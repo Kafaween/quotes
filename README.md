@@ -17,6 +17,7 @@ System.out.println("------------------------------------------------------------
 
 ## you can just run this code and get a random quote out of the json file
 
+# day 2 
 
 you jsut need to rpovide an api and the application will read from the api if the conection is succsisfull and 
 
