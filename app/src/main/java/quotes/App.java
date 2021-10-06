@@ -22,7 +22,7 @@ public class App {
     }.getType();
     public static void main(String[] args) throws Exception {
         try {
-            URL url = new URL("http://api.fapi/1.0/?method=getQuote&format=json&lang=en");
+            URL url = new URL("http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setConnectTimeout(5000);
             connection.setReadTimeout(5000);
